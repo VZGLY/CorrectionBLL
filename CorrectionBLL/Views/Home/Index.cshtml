@@ -1,0 +1,15 @@
+﻿@using BLL.Models;
+@model TextForm;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <h1>CAPITALIZEEEEEER</h1>
+
+    <form asp-action="Result" method="post">
+        <input type="text" asp-for="@Model.Message" />
+        <button>Click ici !</button>
+    </form>
+
+
